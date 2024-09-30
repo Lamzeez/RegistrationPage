@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Page</title>
+		<link rel="stylesheet" href="regStyle.css">
+		<link rel="icon" type="image/png" href="IMAGES/logo.png">
+	</head>
+	<body>
+		<form action="calculator.html">
+			<div id="container">
+				<div id="topArea">
+					<img src="IMAGES/registrationIcon.png">
+					<h1>Registration Page</h1>
+				</div>
+				<small>Personal Information</small>
+				<div class="inputFields">
+					<label>Firstname</label>
+					<input type="text" id="fName" autocomplete="off" required>
+				</div>
+				<div class="inputFields">
+					<label>Surname</label>
+					<input type="text" id="lName" autocomplete="off" required>
+				</div>
+				<div class="inputFields">
+					<label>Suffix:</label>
+					<select id="suffix" autocomplete="off" required>
+						<option>None</option>
+						<option>Jr</option>
+						<option>Sr</option>
+						<option>I</option>
+						<option>II</option>
+						<option>III</option>
+					</select>
+				</div>
+				<div class="inputFields">
+					<label>Date of Birth</label>
+					<input type="date" id="dob" autocomplete="off" required>
+				</div>
+				<br>
+				<small>Account Information</small>
+				<div class="inputFields">
+					<label>Email</label>
+					<input type="email" id="email" autocomplete="off" required>
+				</div>
+				<div class="inputFields">
+					<label>Password</label>
+					<input type="password" id="password" autocomplete="off" required>
+				</div>
+				<div class="buttons">
+					<input type="submit" id="submit" value="Register">
+				</div>
+				<div class="buttons">
+					<input type="reset" id="cancel" value="Cancel">
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
