@@ -14,7 +14,7 @@ body{
 	text-align: center;
 }
 #topArea{
-	background-image: url(IMAGES/background.jpg);
+	background-image: url(background.png);
 	background-size: cover;
 	display: flex;
 	justify-content: center;
